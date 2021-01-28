@@ -1,6 +1,5 @@
 ---
 title: 'Projet EEMI'
-footer: 'Powered by Lucille and Pauline'
 ---
 
 Projet fait pour le frontend par Pauline Feraut et Lucille Van Laer.

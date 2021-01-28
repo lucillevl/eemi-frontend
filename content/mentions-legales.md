@@ -1,6 +1,5 @@
 ---
 title: 'Page mentions légales'
-footer: 'Powered by Lucille and Pauline'
 ---
 Copyright 2021 Lucille VAN LAER and Pauline FERAUT
 

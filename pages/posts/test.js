@@ -1,3 +1,4 @@
+import Layout from "../../components/Layout";
 import React from "react"
 
 require('../../mocks')
@@ -6,9 +7,9 @@ require('../../mocks')
 export default function Test({ data }) {
 
   return (
-    <div>
+    <Layout>
     {data.test}
-    </div>
+    </Layout>
   )
 }
 
