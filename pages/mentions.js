@@ -1,3 +1,4 @@
+import Layout from '../components/Layout';
 import {getContentData} from '../lib/content'
 
 export async function getStaticProps() {
@@ -10,13 +11,13 @@ export async function getStaticProps() {
 }
 export default function Contact({contentMentions}) {
   return(
-    <div>
-    <main>
-        <h1 className="title">
-          {contentMentions.title}
-        </h1>
-        <div dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }} />
-    </main>
-    </div>
+    <Layout>
+      <main>
+          <h1 className="title">
+            {contentMentions.title}
+          </h1>
+          <div dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }} />
+      </main>
+    </Layout>
   )
 }
