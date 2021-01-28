@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import {getContentData} from '../lib/content'
 
-export async function getStaticProps(id) {
+export async function getStaticProps() {
   const contentHomePage = await getContentData('index')
   return {
     props: {
