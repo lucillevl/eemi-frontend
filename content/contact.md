@@ -1,5 +1,5 @@
 ---
-title: 'Page contact'
+title: "Page contact"
 ---
 
 Pour tout problème ou question veuillez nous joindre par email :

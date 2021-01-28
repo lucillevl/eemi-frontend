@@ -1,5 +1,5 @@
 ---
-title: 'Projet EEMI'
+title: "Projet EEMI"
 ---
 
 Projet fait pour le frontend par Pauline Feraut et Lucille Van Laer.

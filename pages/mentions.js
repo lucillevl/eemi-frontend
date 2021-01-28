@@ -1,23 +1,23 @@
-import Layout from '../components/Layout';
-import {getContentData} from '../lib/content'
+import Layout from "../components/Layout";
+import { getContentData } from "../lib/content";
 
 export async function getStaticProps() {
-  const contentMentions = await getContentData('mentions-legales')
+  const contentMentions = await getContentData("mentions-legales");
   return {
     props: {
-      contentMentions
-    }
-  }
+      contentMentions,
+    },
+  };
 }
-export default function Contact({contentMentions}) {
-  return(
+export default function Contact({ contentMentions }) {
+  return (
     <Layout>
       <main>
-          <h1 className="title">
-            {contentMentions.title}
-          </h1>
-          <div dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }} />
+        <h1 className="title">{contentMentions.title}</h1>
+        <div
+          dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }}
+        />
       </main>
     </Layout>
-  )
+  );
 }

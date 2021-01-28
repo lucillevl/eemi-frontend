@@ -1,10 +1,9 @@
 const App = ({ Component, pageProps, router }) => {
-  
   return (
     <Layout>
-        <Component {...pageProps} key={router.route}/>
+      <Component {...pageProps} key={router.route} />
     </Layout>
-  )
-}
+  );
+};
 
-export default App
+export default App;
