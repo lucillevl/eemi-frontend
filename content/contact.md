@@ -1,8 +1,7 @@
 ---
-title: "Page contact"
+title: "Contact"
 ---
 
 Pour tout problème ou question veuillez nous joindre par email :
 
-- pauline.feraut@eemi.com
-- lucille.vanlaer@eemi.com
+pauline.feraut@eemi.com - lucille.vanlaer@eemi.com

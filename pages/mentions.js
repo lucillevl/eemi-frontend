@@ -1,4 +1,3 @@
-import Layout from "../components/Layout";
 import { getContentData } from "../lib/content";
 
 export async function getStaticProps() {
@@ -11,9 +10,12 @@ export async function getStaticProps() {
 }
 export default function Contact({ contentMentions }) {
   return (
-    <main>
-      <h1 className="title">{contentMentions.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }} />
+    <main className="pt-2">
+      <h1 className="title pb-3">{contentMentions.title}</h1>
+      <div
+        className="mt-2"
+        dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }}
+      />
     </main>
   );
 }

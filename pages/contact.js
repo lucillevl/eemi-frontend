@@ -1,5 +1,6 @@
-import Layout from "../components/Layout";
 import { getContentData } from "../lib/content";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 export async function getStaticProps() {
   const contentContact = await getContentData("contact");
@@ -11,16 +12,34 @@ export async function getStaticProps() {
 }
 export default function Contact({ contentContact }) {
   return (
-    <main>
-      <h1 className="title">{contentContact.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: contentContact.contentHtml }} />
-      <div>
-        <form action="#">
-          <input type="text" placeholder="Nom" />
-          <input type="text" placeholder="Prénom" />
-          <input type="text" placeholder="Sujet de la demande" />
-          <textarea placeholder="Votre message"></textarea>
-        </form>
+    <main className="pt-2">
+      <h1 className="title mb-2">{contentContact.title}</h1>
+      <div
+        className="text-center"
+        dangerouslySetInnerHTML={{ __html: contentContact.contentHtml }}
+      />
+      <div className="container-fluid">
+        <Form>
+          <Form.Group controlId="nom">
+            <Form.Label>Nom</Form.Label>
+            <Form.Control type="text" placeholder="Nom" />
+          </Form.Group>
+          <Form.Group controlId="prenom">
+            <Form.Label>Prénom</Form.Label>
+            <Form.Control type="text" placeholder="Prénom" />
+          </Form.Group>
+          <Form.Group controlId="objet">
+            <Form.Label>SUjet de la demande</Form.Label>
+            <Form.Control type="text" placeholder="Sujet de la demande" />
+          </Form.Group>
+          <Form.Group controlId="message">
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" rows={3} />
+          </Form.Group>
+          <Button variant="primary" type="submit">
+            Envoyer
+          </Button>
+        </Form>
       </div>
     </main>
   );

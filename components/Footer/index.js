@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = ({ children }) => {
   return (
-    <footer>
+    <footer className="bg-dark text-white">
       <Link href={`/mentions`}>
         <a>Mentions légales</a>
       </Link>
