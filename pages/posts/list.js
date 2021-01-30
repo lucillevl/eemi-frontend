@@ -5,7 +5,7 @@ require("../../mocks");
 
 export default function List({ data }) {
   return (
-    <Layout>
+    <>
       {data.map(({ id, date_add, title, picture }) => (
         <div key={id}>
           <h2>{title}</h2>
@@ -13,8 +13,7 @@ export default function List({ data }) {
           <img src={picture} />
         </div>
       ))}
-      {data.test}
-    </Layout>
+    </>
   );
 }
 

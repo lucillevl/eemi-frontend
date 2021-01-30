@@ -10,7 +10,7 @@ const NavBar = ({ children }) => {
           </Link>
         </li>
         <li>
-          <Link href={`/posts/test`}>
+          <Link href={`/posts/list`}>
             <a>Liste des posts</a>
           </Link>
         </li>

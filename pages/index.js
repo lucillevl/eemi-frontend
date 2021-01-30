@@ -13,19 +13,17 @@ export async function getStaticProps() {
 
 export default function Home({ contentHomePage }) {
   return (
-    <Layout>
-      <div className="container">
-        <Head>
-          <title>Create Next App</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <main>
-          <h1 className="title">{contentHomePage.title}</h1>
-          <div
-            dangerouslySetInnerHTML={{ __html: contentHomePage.contentHtml }}
-          />
-        </main>
-      </div>
-    </Layout>
+    <div className="container">
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main>
+        <h1 className="title">{contentHomePage.title}</h1>
+        <div
+          dangerouslySetInnerHTML={{ __html: contentHomePage.contentHtml }}
+        />
+      </main>
+    </div>
   );
 }

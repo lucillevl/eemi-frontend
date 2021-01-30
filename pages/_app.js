@@ -1,3 +1,5 @@
+import Layout from "../components/Layout";
+
 const App = ({ Component, pageProps, router }) => {
   return (
     <Layout>

@@ -11,13 +11,9 @@ export async function getStaticProps() {
 }
 export default function Contact({ contentMentions }) {
   return (
-    <Layout>
-      <main>
-        <h1 className="title">{contentMentions.title}</h1>
-        <div
-          dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }}
-        />
-      </main>
-    </Layout>
+    <main>
+      <h1 className="title">{contentMentions.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }} />
+    </main>
   );
 }
