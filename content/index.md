@@ -1,26 +1,23 @@
 ---
 title: "Projet EEMI"
+line1: "Projet fait pour le frontend par Pauline Feraut et Lucille Van Laer."
+line2: "Créer un site de collection de cartes magic avec les caractéristiques suivantes :"
+line3: "Framework utilisé : next.js"
+line4: "Le projet doit contenir :"
+block1: "Une page d'accueil (présentant le projet)"
+block2: "Une page listant la collection de cartes"
+block3: "Une page détaillant une carte"
+block4: "Une page de contact"
+block5: "Une page de mentions légales (qui sera en fait le choix d'une licence open source [https://opensource.org/licenses](https://opensource.org/licenses))"
+line5: "Les pages statiques doivent être générées grâce à du markdown (accueil et mentions légales par exemple)"
+line6: "Les données genre les cartes magic doivent être fournies grâce à msw.js (lib de mocks), fetchées et renvoyées à next.js via les méthodes `getStaticXXX` , etc"
+line7: "Le site doit gérer le responsive design (media queries)"
+line8: "Le layout doit utiliser flexbox"
+line9: "Des animations devront être présentes via `framer-motion`"
+line10: "backstop.js doit être présent sur le projet avec une référence déjà générée"
+line11: "Des tests fonctionnels seront présents avec cypress (tester les parcours utilisateurs)"
+line12: "Un `package.json` propre qui permet d'installer le projet ainsi que lancer toutes les commandes nécessaires (dev, build, test, etc)"
+line13: "Un `README.md` explicatif du projet et des commandes exposées dans le `package.json`"
+line14: "Pour les images du site, on peut s'inspirer de ce site [https://fr.millenium.gg/news/301503.html](https://fr.millenium.gg/news/301503.html)"
+line15: "Le site doit être hébergé sur vercel.com"
 ---
-
-Projet fait pour le frontend par Pauline Feraut et Lucille Van Laer.
-
-Créer un site de collection de cartes magic avec les caractéristiques suivantes :
-
-- Framework utilisé : next.js
-- Le projet doit contenir :
-  - Une page d'accueil (présentant le projet)
-  - Une page listant la collection de cartes
-  - Une page détaillant une carte
-  - Une page de contact
-  - Une page de mentions légales (qui sera en fait le choix d'une licence open source [https://opensource.org/licenses](https://opensource.org/licenses))
-- Les pages statiques doivent être générées grâce à du markdown (accueil et mentions légales par exemple)
-- Les données genre les cartes magic doivent être fournies grâce à msw.js (lib de mocks), fetchées et renvoyées à next.js via les méthodes `getStaticXXX` , etc
-- Le site doit gérer le responsive design (media queries)
-- Le layout doit utiliser flexbox
-- Des animations devront être présentes via `framer-motion`
-- backstop.js doit être présent sur le projet avec une référence déjà générée
-- Des tests fonctionnels seront présents avec cypress (tester les parcours utilisateurs)
-- Un `package.json` propre qui permet d'installer le projet ainsi que lancer toutes les commandes nécessaires (dev, build, test, etc)
-- Un `README.md` explicatif du projet et des commandes exposées dans le `package.json`
-- Pour les images du site, on peut s'inspirer de ce site [https://fr.millenium.gg/news/301503.html](https://fr.millenium.gg/news/301503.html)
-- Le site doit être hébergé sur vercel.com
