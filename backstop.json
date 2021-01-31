@@ -18,8 +18,32 @@
     {
       "label": "Homepage",
       "url": "http://localhost:3000/",
-      "delay": 3000,
-      "misMatchThreshold": 0
+      "misMatchThreshold": 0.1,
+      "delay": 3000
+    },
+    {
+      "label": "Contact",
+      "url": "http://localhost:3000/contact",
+      "misMatchThreshold": 0.1,
+      "delay": 3000
+    },
+    {
+      "label": "Mentions légales",
+      "url": "http://localhost:3000/mentions",
+      "misMatchThreshold": 0.1,
+      "delay": 3000
+    },
+    {
+      "label": "Liste cocktails",
+      "url": "http://localhost:3000/posts/list",
+      "misMatchThreshold": 0.1,
+      "delay": 3000
+    },
+    {
+      "label": "Cocktails ",
+      "url": "http://localhost:3000/posts/list",
+      "misMatchThreshold": 0.1,
+      "delay": 3000
     }
   ],
   "paths": {

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { getContentData } from "../lib/content";
 
 export async function getStaticProps() {
@@ -10,12 +11,17 @@ export async function getStaticProps() {
 }
 export default function Contact({ contentMentions }) {
   return (
-    <main className="pt-2">
-      <h1 className="title pb-3">{contentMentions.title}</h1>
-      <div
-        className="mt-2"
-        dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }}
-      />
-    </main>
+    <>
+      <Head>
+        <title>Mentions légales</title>
+      </Head>
+      <main className="pt-2">
+        <h1 className="title pb-3">{contentMentions.title}</h1>
+        <div
+          className="mt-2"
+          dangerouslySetInnerHTML={{ __html: contentMentions.contentHtml }}
+        />
+      </main>
+    </>
   );
 }

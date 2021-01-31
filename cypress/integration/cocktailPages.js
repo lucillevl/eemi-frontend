@@ -5,8 +5,10 @@ describe("cocktailPages", () => {
   });
 
   it("click on menu and render list cocktails", () => {
-    cy.get(`nav a:nth-child(2)`).contains("Liste").click();
-    cy.url().should("include", "/posts/list");
+    cy.get(`nav a:nth-child(2)`).contains("Cocktails").click();
+    cy.get(".card").then(() => {
+      cy.url().should("include", "/posts/list");
+    });
   });
 
   it("Render 25 cards", () => {

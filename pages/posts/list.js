@@ -27,8 +27,8 @@ export default function List({ data }) {
             {data.map(
               ({ idDrink, strInstructions, strDrink, strDrinkThumb }) => (
                 <Col sm={4} key={idDrink}>
-                  <Link href={`/posts/list/${idDrink}`}>
-                    <a>
+                  <Link passHref href={`/posts/list/${idDrink}`}>
+                    <a style={{ textDecoration: "none" }}>
                       <motion.div
                         className="divCardsList mb-5"
                         whileHover={

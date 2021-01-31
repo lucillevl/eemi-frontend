@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "cypress": "node_modules/.bin/cypress open"
+    "test": "node_modules/.bin/cypress open",
+    "backstop": "backstop test"
   },
   "dependencies": {
     "acorn": "^8.0.5",

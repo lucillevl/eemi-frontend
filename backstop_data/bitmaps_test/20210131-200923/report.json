@@ -1,0 +1,246 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_0_phone.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Homepage_0_document_0_phone.png",
+        "label": "Homepage",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "92.31",
+          "analysisTime": 385
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Homepage_0_document_1_tablet.png",
+        "label": "Homepage",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "87.03",
+          "analysisTime": 687
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Contact_0_document_0_phone.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Contact_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Contact_0_document_0_phone.png",
+        "label": "Contact",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/contact",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "71.06",
+          "analysisTime": 282
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Contact_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Contact_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Contact_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Contact_0_document_1_tablet.png",
+        "label": "Contact",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/contact",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "77.84",
+          "analysisTime": 383
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Contact_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_0_phone.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Mentions_lgales_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Mentions_lgales_0_document_0_phone.png",
+        "label": "Mentions légales",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/mentions",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "89.56",
+          "analysisTime": 247
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Mentions_lgales_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Mentions_lgales_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Mentions_lgales_0_document_1_tablet.png",
+        "label": "Mentions légales",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/mentions",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "85.09",
+          "analysisTime": 384
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Mentions_lgales_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_0_phone.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Liste_cocktails_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Liste_cocktails_0_document_0_phone.png",
+        "label": "Liste cocktails",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/posts/list",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "20.89",
+          "analysisTime": 698
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Liste_cocktails_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Liste_cocktails_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Liste_cocktails_0_document_1_tablet.png",
+        "label": "Liste cocktails",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/posts/list",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "26.05",
+          "analysisTime": 699
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Liste_cocktails_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Cocktails__0_document_0_phone.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Cocktails__0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Cocktails__0_document_0_phone.png",
+        "label": "Cocktails ",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/posts/list",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "20.89",
+          "analysisTime": 686
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Cocktails__0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Cocktails__0_document_1_tablet.png",
+        "test": "../bitmaps_test/20210131-200923/backstop_default_Cocktails__0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Cocktails__0_document_1_tablet.png",
+        "label": "Cocktails ",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/posts/list",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "26.05",
+          "analysisTime": 671
+        },
+        "diffImage": "../bitmaps_test/20210131-200923/failed_diff_backstop_default_Cocktails__0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}

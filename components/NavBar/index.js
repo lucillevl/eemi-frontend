@@ -14,9 +14,15 @@ const NavBar = ({ children }) => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">{`Accueil`}</Nav.Link>
-          <Nav.Link href="/posts/list">{`Articles`}</Nav.Link>
-          <Nav.Link href="/contact">{`Contact`}</Nav.Link>
+          <Link href={`/`} passHref>
+            <Nav.Link>{`Accueil`}</Nav.Link>
+          </Link>
+          <Link href={`/posts/list`} passHref>
+            <Nav.Link>{`Cocktails`}</Nav.Link>
+          </Link>
+          <Link href={`/contact`} passHref>
+            <Nav.Link href="/contact">{`Contact`}</Nav.Link>
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

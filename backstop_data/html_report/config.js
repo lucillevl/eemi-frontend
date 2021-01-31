@@ -6,11 +6,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Homepage_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-192214/backstop_default_Homepage_0_document_0_phone.png",
+          "../bitmaps_test/20210131-201104/backstop_default_Homepage_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Homepage_0_document_0_phone.png",
         label: "Homepage",
-        misMatchThreshold: 0,
+        misMatchThreshold: 0.1,
         url: "http://localhost:3000/",
         expect: 0,
         viewportLabel: "phone",
@@ -20,11 +20,11 @@ report({
             width: 0,
             height: 0,
           },
-          misMatchPercentage: "90.77",
-          analysisTime: 92,
+          misMatchPercentage: "85.15",
+          analysisTime: 119,
         },
         diffImage:
-          "../bitmaps_test/20210131-192214/failed_diff_backstop_default_Homepage_0_document_0_phone.png",
+          "../bitmaps_test/20210131-201104/failed_diff_backstop_default_Homepage_0_document_0_phone.png",
       },
       status: "fail",
     },
@@ -33,12 +33,63 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Homepage_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-192214/backstop_default_Homepage_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-201104/backstop_default_Homepage_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Homepage_0_document_1_tablet.png",
         label: "Homepage",
-        misMatchThreshold: 0,
+        misMatchThreshold: 0.1,
         url: "http://localhost:3000/",
+        expect: 0,
+        viewportLabel: "tablet",
+        diff: {
+          isSameDimensions: false,
+          dimensionDifference: {
+            width: 0,
+            height: -408,
+          },
+          misMatchPercentage: "9.27",
+          analysisTime: 165,
+        },
+        diffImage:
+          "../bitmaps_test/20210131-201104/failed_diff_backstop_default_Homepage_0_document_1_tablet.png",
+      },
+      status: "fail",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Contact_0_document_0_phone.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Contact_0_document_0_phone.png",
+        selector: "document",
+        fileName: "backstop_default_Contact_0_document_0_phone.png",
+        label: "Contact",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/contact",
+        expect: 0,
+        viewportLabel: "phone",
+        diff: {
+          isSameDimensions: true,
+          dimensionDifference: {
+            width: 0,
+            height: 0,
+          },
+          misMatchPercentage: "0.00",
+        },
+      },
+      status: "pass",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Contact_0_document_1_tablet.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Contact_0_document_1_tablet.png",
+        selector: "document",
+        fileName: "backstop_default_Contact_0_document_1_tablet.png",
+        label: "Contact",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/contact",
         expect: 0,
         viewportLabel: "tablet",
         diff: {
@@ -47,13 +98,154 @@ report({
             width: 0,
             height: 0,
           },
-          misMatchPercentage: "87.03",
-          analysisTime: 129,
+          misMatchPercentage: "0.00",
         },
-        diffImage:
-          "../bitmaps_test/20210131-192214/failed_diff_backstop_default_Homepage_0_document_1_tablet.png",
       },
-      status: "fail",
+      status: "pass",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_0_phone.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Mentions_lgales_0_document_0_phone.png",
+        selector: "document",
+        fileName: "backstop_default_Mentions_lgales_0_document_0_phone.png",
+        label: "Mentions légales",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/mentions",
+        expect: 0,
+        viewportLabel: "phone",
+        diff: {
+          isSameDimensions: true,
+          dimensionDifference: {
+            width: 0,
+            height: 0,
+          },
+          misMatchPercentage: "0.00",
+        },
+      },
+      status: "pass",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_1_tablet.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Mentions_lgales_0_document_1_tablet.png",
+        selector: "document",
+        fileName: "backstop_default_Mentions_lgales_0_document_1_tablet.png",
+        label: "Mentions légales",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/mentions",
+        expect: 0,
+        viewportLabel: "tablet",
+        diff: {
+          isSameDimensions: true,
+          dimensionDifference: {
+            width: 0,
+            height: 0,
+          },
+          misMatchPercentage: "0.00",
+        },
+      },
+      status: "pass",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_0_phone.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Liste_cocktails_0_document_0_phone.png",
+        selector: "document",
+        fileName: "backstop_default_Liste_cocktails_0_document_0_phone.png",
+        label: "Liste cocktails",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/posts/list",
+        expect: 0,
+        viewportLabel: "phone",
+        diff: {
+          isSameDimensions: true,
+          dimensionDifference: {
+            width: 0,
+            height: 0,
+          },
+          misMatchPercentage: "0.00",
+        },
+      },
+      status: "pass",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_1_tablet.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Liste_cocktails_0_document_1_tablet.png",
+        selector: "document",
+        fileName: "backstop_default_Liste_cocktails_0_document_1_tablet.png",
+        label: "Liste cocktails",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/posts/list",
+        expect: 0,
+        viewportLabel: "tablet",
+        diff: {
+          isSameDimensions: true,
+          dimensionDifference: {
+            width: 0,
+            height: 0,
+          },
+          misMatchPercentage: "0.00",
+        },
+      },
+      status: "pass",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Cocktails__0_document_0_phone.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Cocktails__0_document_0_phone.png",
+        selector: "document",
+        fileName: "backstop_default_Cocktails__0_document_0_phone.png",
+        label: "Cocktails ",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/posts/list",
+        expect: 0,
+        viewportLabel: "phone",
+        diff: {
+          isSameDimensions: true,
+          dimensionDifference: {
+            width: 0,
+            height: 0,
+          },
+          misMatchPercentage: "0.00",
+        },
+      },
+      status: "pass",
+    },
+    {
+      pair: {
+        reference:
+          "../bitmaps_reference/backstop_default_Cocktails__0_document_1_tablet.png",
+        test:
+          "../bitmaps_test/20210131-201104/backstop_default_Cocktails__0_document_1_tablet.png",
+        selector: "document",
+        fileName: "backstop_default_Cocktails__0_document_1_tablet.png",
+        label: "Cocktails ",
+        misMatchThreshold: 0.1,
+        url: "http://localhost:3000/posts/list",
+        expect: 0,
+        viewportLabel: "tablet",
+        diff: {
+          isSameDimensions: true,
+          dimensionDifference: {
+            width: 0,
+            height: 0,
+          },
+          misMatchPercentage: "0.00",
+        },
+      },
+      status: "pass",
     },
   ],
   id: "backstop_default",
