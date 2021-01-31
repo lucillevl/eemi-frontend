@@ -1,8 +1,8 @@
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import React from "react";
 import Head from "next/head";
-
+import React from "react";
+import { getAllPosts } from "../../lib/post";
 require("../../mocks");
 
 export default function List({ data }) {
@@ -14,9 +14,9 @@ export default function List({ data }) {
       </Head>
       <main className="d-flex container">
         <CardGroup>
-          {data.map(({ id, strInstructions, strDrink, strDrinkThumb }) => (
-            <div className="row row-cols-12">
-              <Card style={{ width: "18rem" }} key={id} className="">
+          {data.map(({ idDrink, strInstructions, strDrink, strDrinkThumb }) => (
+            <div className="row row-cols-12" key={idDrink}>
+              <Card style={{ width: "18rem" }} className="">
                 <Card.Img variant="top" src={strDrinkThumb} />
                 <Card.Body>
                   <Card.Title>{strDrink}</Card.Title>
@@ -31,11 +31,8 @@ export default function List({ data }) {
   );
 }
 
-export async function getStaticProps(context) {
-  // Server-side requests are mocked by `mocks/server.js`.
-  const res = await fetch("http://localhost:3000/posts");
-  const data = await res.json();
-  console.log(data);
+export async function getStaticProps() {
+  const data = await getAllPosts();
   return {
     props: {
       data,
