@@ -1,11 +1,11 @@
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import React from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-
+import React from "react";
+import { getAllPosts } from "../../lib/post";
 require("../../mocks");
 
 export default function List({ data }) {
@@ -49,11 +49,8 @@ export default function List({ data }) {
   );
 }
 
-export async function getStaticProps(context) {
-  // Server-side requests are mocked by `mocks/server.js`.
-  const res = await fetch("http://localhost:3000/posts");
-  const data = await res.json();
-  console.log(data);
+export async function getStaticProps() {
+  const data = await getAllPosts();
   return {
     props: {
       data,
