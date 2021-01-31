@@ -28,3 +28,4 @@ Pour build le projet, il suffit de lancer `npm run build`
 ## À noter
 
 Pour mieux travailler en groupe, nous avons installer ESLint et Prettier sur le projet. Avant chaque push sur le git, tout le code était bien reformatter.
+L'animation de la page d'accueil c'est pour le plaisir des yeux... évidemment (et juste pour montrer qu'on a bien pris en main les animations) :) 
