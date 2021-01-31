@@ -6,6 +6,7 @@ const NavBar = ({ children }) => {
   return (
     <Navbar className="sticky-top bg-info">
       <Navbar.Brand href="/" className="text-white">
+        <img src="/cocktail.png" style={{ width: "2rem" }} className="mr-2" />
         CocktailsCards
       </Navbar.Brand>
       <Nav className="mr-auto">
