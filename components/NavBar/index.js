@@ -13,17 +13,20 @@ const NavBar = ({ children }) => {
           {`CocktailsCards`}
         </a>
       </Link>
-      <Nav className="mr-auto">
-        <Link href={`/`}>
-          <a className="text-white nav-link">{`Accueil`}</a>
-        </Link>
-        <Link href={`/posts/list`}>
-          <a className="text-white nav-link">{`Liste des postes`}</a>
-        </Link>
-        <Link href={`/contact`}>
-          <a className="text-white nav-link">{`Contact`}</a>
-        </Link>
-      </Nav>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <Link href={`/`}>
+            <a className="text-white nav-link">{`Accueil`}</a>
+          </Link>
+          <Link href={`/posts/list`}>
+            <a className="text-white nav-link">{`Posts`}</a>
+          </Link>
+          <Link href={`/contact`}>
+            <a className="text-white nav-link">{`Contact`}</a>
+          </Link>
+        </Nav>
+      </Navbar.Collapse>
     </Navbar>
   );
 };
