@@ -1,6 +1,6 @@
 ---
 title: "Projet EEMI"
-line1: "Projet fait pour le frontend par Pauline Feraut et Lucille Van Laer."
+line1: "Projet fait pour le frontend par Pauline Feraut et Lucille Van Laer. Ce site va présenter une liste de cocktails"
 line2: "Créer un site de collection de cartes magic avec les caractéristiques suivantes :"
 line3: "Framework utilisé : next.js"
 line4: "Le projet doit contenir :"
