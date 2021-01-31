@@ -1,5 +1,9 @@
 # Projet frontend Lucille VAN LAER et Pauline FERAUT - 5A CTO
 
+## Voir le projet
+
+Nous avons mis le projet sur vercel, si vous voulez un aperçu voici le lien : <https://eemi-frontend.vercel.app/>
+
 ## Lancer le projet
 
 Pour lancer le projet il suffit de clone ce git
@@ -20,10 +24,6 @@ Enfin il faut lancer la commande `npm run dev` et se rendre sur <http://localhos
 ## Build le projet
 
 Pour build le projet, il suffit de lancer `npm run build`
-
-## Voir le projet
-
-Nous avons mis le projet sur vercel, si vous voulez un aperçu voici le lien : <>
 
 ## À noter
 
