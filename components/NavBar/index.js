@@ -6,25 +6,17 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = ({ children }) => {
   return (
-    <Navbar className="sticky-top bg-info">
-      <Link href={`/`}>
-        <a className="text-white navbar-brand">
-          <img src="/cocktail.png" style={{ width: "2rem" }} className="mr-2" />
-          {`CocktailsCards`}
-        </a>
-      </Link>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar.Brand className="text-white" href="/">
+        <img src="/cocktail.png" style={{ width: "2rem" }} className="mr-2" />
+        {`CocktailsCards`}
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Link href={`/`}>
-            <a className="text-white nav-link">{`Accueil`}</a>
-          </Link>
-          <Link href={`/posts/list`}>
-            <a className="text-white nav-link">{`Posts`}</a>
-          </Link>
-          <Link href={`/contact`}>
-            <a className="text-white nav-link">{`Contact`}</a>
-          </Link>
+          <Nav.Link href="/">{`Accueil`}</Nav.Link>
+          <Nav.Link href="/posts/list">{`Articles`}</Nav.Link>
+          <Nav.Link href="/contact">{`Contact`}</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
