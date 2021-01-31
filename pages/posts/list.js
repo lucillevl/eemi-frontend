@@ -14,13 +14,13 @@ export default function List({ data }) {
       </Head>
       <main className="d-flex container">
         <CardGroup>
-          {data.map(({ id, date_add, title, picture }) => (
+          {data.map(({ id, strInstructions, strDrink, strDrinkThumb }) => (
             <div className="row row-cols-12">
               <Card style={{ width: "18rem" }} key={id} className="">
-                <Card.Img variant="top" src={picture} />
+                <Card.Img variant="top" src={strDrinkThumb} />
                 <Card.Body>
-                  <Card.Title>{title}</Card.Title>
-                  <Card.Text>{date_add}</Card.Text>
+                  <Card.Title>{strDrink}</Card.Title>
+                  <Card.Text>{strInstructions}</Card.Text>
                 </Card.Body>
               </Card>
             </div>
