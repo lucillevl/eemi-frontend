@@ -6,7 +6,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Homepage_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Homepage_0_document_0_phone.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Homepage_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Homepage_0_document_0_phone.png",
         label: "Homepage",
@@ -20,20 +20,17 @@ report({
             width: 0,
             height: 0,
           },
-          misMatchPercentage: "85.15",
-          analysisTime: 119,
+          misMatchPercentage: "0.00",
         },
-        diffImage:
-          "../bitmaps_test/20210131-201104/failed_diff_backstop_default_Homepage_0_document_0_phone.png",
       },
-      status: "fail",
+      status: "pass",
     },
     {
       pair: {
         reference:
           "../bitmaps_reference/backstop_default_Homepage_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Homepage_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Homepage_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Homepage_0_document_1_tablet.png",
         label: "Homepage",
@@ -42,25 +39,22 @@ report({
         expect: 0,
         viewportLabel: "tablet",
         diff: {
-          isSameDimensions: false,
+          isSameDimensions: true,
           dimensionDifference: {
             width: 0,
-            height: -408,
+            height: 0,
           },
-          misMatchPercentage: "9.27",
-          analysisTime: 165,
+          misMatchPercentage: "0.00",
         },
-        diffImage:
-          "../bitmaps_test/20210131-201104/failed_diff_backstop_default_Homepage_0_document_1_tablet.png",
       },
-      status: "fail",
+      status: "pass",
     },
     {
       pair: {
         reference:
           "../bitmaps_reference/backstop_default_Contact_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Contact_0_document_0_phone.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Contact_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Contact_0_document_0_phone.png",
         label: "Contact",
@@ -84,7 +78,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Contact_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Contact_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Contact_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Contact_0_document_1_tablet.png",
         label: "Contact",
@@ -108,7 +102,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Mentions_lgales_0_document_0_phone.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Mentions_lgales_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Mentions_lgales_0_document_0_phone.png",
         label: "Mentions légales",
@@ -132,7 +126,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Mentions_lgales_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Mentions_lgales_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Mentions_lgales_0_document_1_tablet.png",
         label: "Mentions légales",
@@ -156,7 +150,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Liste_cocktails_0_document_0_phone.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Liste_cocktails_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Liste_cocktails_0_document_0_phone.png",
         label: "Liste cocktails",
@@ -180,7 +174,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Liste_cocktails_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Liste_cocktails_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Liste_cocktails_0_document_1_tablet.png",
         label: "Liste cocktails",
@@ -204,7 +198,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Cocktails__0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Cocktails__0_document_0_phone.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Cocktails__0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Cocktails__0_document_0_phone.png",
         label: "Cocktails ",
@@ -228,7 +222,7 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Cocktails__0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-201104/backstop_default_Cocktails__0_document_1_tablet.png",
+          "../bitmaps_test/20210131-203257/backstop_default_Cocktails__0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Cocktails__0_document_1_tablet.png",
         label: "Cocktails ",
