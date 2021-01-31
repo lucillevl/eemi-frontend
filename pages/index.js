@@ -1,8 +1,8 @@
+import { BsCheckCircle } from "react-icons/bs";
+import Col from "react-bootstrap/Col";
 import Head from "next/head";
 import { getContentData } from "../lib/content";
-import Col from "react-bootstrap/Col";
 import { motion } from "framer-motion";
-import { BsCheckCircle } from "react-icons/bs";
 
 export async function getStaticProps() {
   const contentHomePage = await getContentData("index");

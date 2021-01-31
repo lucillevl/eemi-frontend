@@ -20,13 +20,17 @@ export default function Post({ data }) {
     });
 
   return (
-    <Container class="mt-5">
+    <Container>
       <Row>
-        <Col xs={4}>
-          <img class="w-100" src={data.strDrinkThumb} alt="thumb cocktail" />
+        <Col md={4}>
+          <img
+            className="w-100"
+            src={data.strDrinkThumb}
+            alt="thumb cocktail"
+          />
         </Col>
-        <Col xs={8}>
-          <h1>{data.strDrink}</h1>
+        <Col md={8}>
+          <h1 id="cocktailName">{data.strDrink}</h1>
           <p>
             <span className="bold">Catégorie :</span> {data.strCategory}
           </p>
@@ -36,15 +40,11 @@ export default function Post({ data }) {
           <p>
             <span className="bold">Type de verre :</span> {data.strGlass}
           </p>
-          <p>
-            <span className="bold">Instructions :</span>{" "}
-          </p>
-          <p>{data.strInstructions}</p>
         </Col>
       </Row>
-      <Row class="w-100 mt-3 mb-3">
-        <Accordion className="accordion">
-          <Card className="card">
+      <Row className="w-100 mt-3 mb-3">
+        <Accordion className="w-100">
+          <Card>
             <Accordion.Toggle as={Card.Header} eventKey="0">
               <h2>Instructions</h2>
             </Accordion.Toggle>
@@ -75,9 +75,6 @@ export default function Post({ data }) {
         .bold {
           font-weight: 700;
         }
-        .accordion .card {
-          background-color: transparent;
-        }
       `}</style>
     </Container>
   );
@@ -93,8 +90,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const data = await getOnePost(params.id);
-
-  console.log(data);
   return {
     props: {
       data,

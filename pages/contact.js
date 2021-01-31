@@ -1,6 +1,6 @@
-import { getContentData } from "../lib/content";
-import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import { getContentData } from "../lib/content";
 
 export async function getStaticProps() {
   const contentContact = await getContentData("contact");
@@ -19,7 +19,7 @@ export default function Contact({ contentContact }) {
         dangerouslySetInnerHTML={{ __html: contentContact.contentHtml }}
       />
       <div className="container-fluid">
-        <Form>
+        <Form id="form">
           <Form.Group controlId="nom">
             <Form.Label>Nom</Form.Label>
             <Form.Control type="text" placeholder="Nom" />
@@ -29,14 +29,14 @@ export default function Contact({ contentContact }) {
             <Form.Control type="text" placeholder="Prénom" />
           </Form.Group>
           <Form.Group controlId="objet">
-            <Form.Label>SUjet de la demande</Form.Label>
+            <Form.Label>Sujet de la demande</Form.Label>
             <Form.Control type="text" placeholder="Sujet de la demande" />
           </Form.Group>
           <Form.Group controlId="message">
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
-          <Button variant="info" type="submit">
+          <Button variant="primary" type="submit">
             Envoyer
           </Button>
         </Form>
