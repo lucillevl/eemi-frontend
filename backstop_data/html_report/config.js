@@ -6,11 +6,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Homepage_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Homepage_0_document_0_phone.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Homepage_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Homepage_0_document_0_phone.png",
         label: "Homepage",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/",
         expect: 0,
         viewportLabel: "phone",
@@ -30,11 +30,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Homepage_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Homepage_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Homepage_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Homepage_0_document_1_tablet.png",
         label: "Homepage",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/",
         expect: 0,
         viewportLabel: "tablet",
@@ -54,11 +54,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Contact_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Contact_0_document_0_phone.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Contact_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Contact_0_document_0_phone.png",
         label: "Contact",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/contact",
         expect: 0,
         viewportLabel: "phone",
@@ -78,11 +78,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Contact_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Contact_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Contact_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Contact_0_document_1_tablet.png",
         label: "Contact",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/contact",
         expect: 0,
         viewportLabel: "tablet",
@@ -102,11 +102,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Mentions_lgales_0_document_0_phone.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Mentions_lgales_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Mentions_lgales_0_document_0_phone.png",
         label: "Mentions légales",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/mentions",
         expect: 0,
         viewportLabel: "phone",
@@ -126,11 +126,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Mentions_lgales_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Mentions_lgales_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Mentions_lgales_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Mentions_lgales_0_document_1_tablet.png",
         label: "Mentions légales",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/mentions",
         expect: 0,
         viewportLabel: "tablet",
@@ -150,11 +150,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Liste_cocktails_0_document_0_phone.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Liste_cocktails_0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Liste_cocktails_0_document_0_phone.png",
         label: "Liste cocktails",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/posts/list",
         expect: 0,
         viewportLabel: "phone",
@@ -174,11 +174,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Liste_cocktails_0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Liste_cocktails_0_document_1_tablet.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Liste_cocktails_0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Liste_cocktails_0_document_1_tablet.png",
         label: "Liste cocktails",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/posts/list",
         expect: 0,
         viewportLabel: "tablet",
@@ -198,11 +198,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Cocktails__0_document_0_phone.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Cocktails__0_document_0_phone.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Cocktails__0_document_0_phone.png",
         selector: "document",
         fileName: "backstop_default_Cocktails__0_document_0_phone.png",
         label: "Cocktails ",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/posts/list",
         expect: 0,
         viewportLabel: "phone",
@@ -222,11 +222,11 @@ report({
         reference:
           "../bitmaps_reference/backstop_default_Cocktails__0_document_1_tablet.png",
         test:
-          "../bitmaps_test/20210131-203257/backstop_default_Cocktails__0_document_1_tablet.png",
+          "../bitmaps_test/20210131-230622/backstop_default_Cocktails__0_document_1_tablet.png",
         selector: "document",
         fileName: "backstop_default_Cocktails__0_document_1_tablet.png",
         label: "Cocktails ",
-        misMatchThreshold: 0.1,
+        misMatchThreshold: 20,
         url: "http://localhost:3000/posts/list",
         expect: 0,
         viewportLabel: "tablet",
